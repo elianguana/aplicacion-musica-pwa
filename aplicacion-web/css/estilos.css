@@ -1,0 +1,100 @@
+header h1{
+   
+   background-color: rgb(145, 7, 7); 
+
+}
+
+.cambio{
+
+    text-decoration: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+   
+}
+
+.share-app{
+
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.card:hover {
+   
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+    overflow: hidden;
+    cursor: default;
+
+   
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+section{
+
+    margin: auto;
+    padding: auto;
+
+}
+
+.card{
+
+    width: 300px;
+    margin: auto;
+    padding: auto;
+
+}
+
+@media screen and (max-width:350px) {
+
+    .card{
+
+        width: 200px;
+
+    }
+
+    
+}
+
+@media screen and (min-width:767px) {
+
+    .card{
+
+
+        width: 320px;
+
+        columns: 2;
+
+    }
+
+
+    }
+
+    @media screen and (min-width:1023px) {
+
+
+    nav a{
+
+
+        font-size: 25px;
+
+    }
+
+    footer p{
+
+        font-size: 20px;
+
+    }
+
+
+
+}

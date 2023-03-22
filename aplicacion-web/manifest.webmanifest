@@ -1,0 +1,32 @@
+{
+    "theme_color": "#b7b4b2",
+    "background_color": "#b90908",
+    "display": "fullscreen",
+    "scope": "/aplicacion-web/",
+    "start_url": "/aplicacion-web/index.html",
+    "name": "Aplicaci\u00f3n de M\u00fasica",
+    "short_name": "Music App",
+    "description": "En esta app encontraras tu m\u00fasica para descargar",
+    "icons": [
+        {
+            "src": "img/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
